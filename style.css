@@ -1,0 +1,32 @@
+body{
+    padding: 100px;
+    text-transform: capitalize;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.status{
+     border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.deposit{
+    background-color: #5E4FC1;
+}
+.withdraw{
+    background-color: #f09672;
+}
+.balance{
+    background-color: orange;
+}
+#transactionArea{
+    display: none;
+}
